@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.12.7"
+    "astro": "^5.12.7",
+    "pnpm": "^10.14.0"
   }
 }
