@@ -5,7 +5,7 @@ html {
 
 @font-face {
     font-family: 'Spectral';
-    src: url('/fonts/Spectral-Regular.ttf') format('truetype');
+    src: url('/Worldbuilding-Wiki/fonts/Spectral-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -13,7 +13,7 @@ html {
 
 @font-face {
     font-family: 'League Gothic Condensed';
-    src: url('/fonts/Oswald-Bold.ttf') format('truetype');
+    src: url('/Worldbuilding-Wiki/fonts/Oswald-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
