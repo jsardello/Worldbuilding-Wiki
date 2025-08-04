@@ -1,18 +1,17 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageTitle = "Blog";
 
 ---
-
-<html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
-    <meta name="viewport" content="width=device-width"/>
-    <meta name="generator" content={Astro.generator}/>
-    <title>Astro</title>
-</head>
+<BaseLayout pageTitle={pageTitle}>
 <body>
 
-<h1>Blog</h1>
 <p>This is where I drop posts about my personal life, what I'm thinking about, and how its shaping my universe.</p>
 <p>I think this would be a good place to comment on different world building tidbits that I enjoy. I can muse on topics in a longer format or maybe even drop a book review here and there.</p>
+
+<ul>
+    <li><a href="/posts/tidbit-1/">Tidbit 1 - My First Blogpost</a></li>
+</ul>
 </body>
+</BaseLayout>
