@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
+const allPosts = Object.values(import.meta.glob('./posts/blog*.md', { eager: true }));
 const pageTitle = "Blog";
 
 ---
@@ -11,7 +12,7 @@ const pageTitle = "Blog";
 <p>I think this would be a good place to comment on different world building tidbits that I enjoy. I can muse on topics in a longer format or maybe even drop a book review here and there.</p>
 
 <ul>
-    <li><a href="/Worldbuilding-Wiki/posts/tidbit-1/">Tidbit 1 - My First Blogpost</a></li>
+    {allPosts.map((post: any) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
 </ul>
 </body>
 </BaseLayout>

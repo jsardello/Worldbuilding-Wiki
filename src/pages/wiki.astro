@@ -1,15 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
+const allPosts = Object.values(import.meta.glob('./posts/wiki*.md', { eager: true }));
 const pageTitle = "Wiki";
 
 ---
 <BaseLayout pageTitle={pageTitle}>
 <body>
-
 <ul>
-    <li><a href="/Worldbuilding-Wiki/posts/wiki-1-creator/">The Creator</a></li>
+    {allPosts.map((post: any) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
 </ul>
-
 </body>
 </BaseLayout>
