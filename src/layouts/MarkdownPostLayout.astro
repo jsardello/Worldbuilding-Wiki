@@ -1,12 +1,16 @@
 ---
 import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 
 const { frontmatter } = Astro.props;
 ---
 <meta charset="utf-8" />
-<Navigation />
+<Header />
 <h1>{frontmatter.title}</h1>
 <p>Published on: {frontmatter.pubDate.toString().slice(0,10)}</p>
 <p>Written by {frontmatter.author}</p>
+<figure class="wiki-intro-image">
+    <img src={"/Worldbuilding-Wiki/images/" + frontmatter.title  + "-wiki-header.webp"} alt={frontmatter.title}>
+    <figcaption>{frontmatter.caption}</figcaption>
+</figure>
 <slot />

@@ -4,4 +4,5 @@ title: 'The Demonic Realms'
 pubDate: '2025-08-05'
 description: 'Who is the creator of the universe?'
 author: 'Jackson Sardello'
+caption: '7 levels of brimstone are the petri dish of demonic life'
 ---
