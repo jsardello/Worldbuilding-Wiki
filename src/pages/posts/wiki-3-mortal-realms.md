@@ -7,8 +7,6 @@ author: 'Jackson Sardello'
 caption: 'Seven infinite realms contain the majority of life in the universe.'
 ---
 
-# The Mortal Realms
-
 The Mortal Realms are 7 "mirror realms" that contain the vast majority of life in the known universe. Each Realm share the following characteristics:
 - No Void - The Mortal Realms are an infinite expanse of the vaccum of space. No Void exists except as a separating barrier between each Realm.
 - Affixed Celestial Bodies - At the moment of creation, the celestial bodies of each realm were an exact copy of the others. Time, magical influences, and the butterfly effect have caused differentiation between the realms, but the general placement of stars, planets, and other major celestial bodies remain highly correlated.
